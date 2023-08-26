@@ -97,3 +97,22 @@ D:\Data Structure\react-testing\coverage\lcov-report\src\index.html
 implementaion details
 third party code
 code that is not important to user point of view
+
+
+
+
+
+--------------------------------
+Greet --> basic 
+Application --> getBy
+Skills --> for asynchronous request --> findBy
+Counter --> user-event --> mouse click, tab key press for focous
+MuiMode--> App Provider , to wrapper function.
+useCounter --> custom Hooks --> renderHook
+mocking
+IncDec --> jest.fn() creates a mock function 
+
+mocking api --> https://mswjs.io/ --> need mock service worker setup
+npm install msw --save-dev
+
+https://mswjs.io/docs/getting-started/integrate/node

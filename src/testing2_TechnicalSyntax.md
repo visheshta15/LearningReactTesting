@@ -40,16 +40,12 @@ https://jestjs.io/docs/using-matchers
 https://github.com/testing-library/jest-dom
 
 
-# RTL queries
-queries are the method the RTL provide to find elements on the page
-
-1. to find single element on the page
-`getBy..` : class of queries return the matching node for a query, and throw a descriptive error if no element matches or if more than one match is found
-queryBy..
-findBy..
-2. to find multiple element on the page
-getAllBy..
-queryAllBy..
-findAllBy..
-
-suffix can be one of the Role, LabelText, PlaceHolderText, Text, DisplayValue, AltText, Title, TestId
+`assert`
+1. .toBeInTheDocument()
+2. .toHaveLength(3)
+3. .not.toBeInTheDocument()
+4. .toHaveTextContent(0)
+5. .toHaveValue(10)         //for input element
+5. .toHaveFocus()
+6. .toBe(false)
+7. .toHaveBeenCalledTimes(1)
