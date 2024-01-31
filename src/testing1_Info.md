@@ -112,7 +112,10 @@ useCounter --> custom Hooks --> renderHook
 mocking
 IncDec --> jest.fn() creates a mock function 
 
-mocking api --> https://mswjs.io/ --> need mock service worker setup
-npm install msw --save-dev
 
+mocking api --> https://mswjs.io/ --> need setup of mock service worker MSW
+MSW is an api mocking library that uses service worker api to intercept actual requests. It a closest thing to mocking a server without having to create one 
 https://mswjs.io/docs/getting-started/integrate/node
+
+npm install msw --save-dev
+create mock folder

@@ -11,7 +11,7 @@ import Users from './components/users/Users'
 function App() {
   return (
     <>
-      {/* <Application /> */}
+      <Application />
       {/* <Skills /> */}
       {/* <Counter /> */}
 
@@ -23,7 +23,7 @@ function App() {
       
       {/* <CounterApp /> */}
       {/* <IncDec /> */}
-      <Users />
+      {/* <Users /> */}
     </>
     
   )

@@ -1,7 +1,7 @@
 // handle all the http request and respond to a mock response
 import { rest } from 'msw'
 
-export const handlers = () => {
+export const handlers = [
     rest.get('https://jsonplaceholder.typicode.com/users', (request, response, context)=>{
         return response(
             context.status(200),
@@ -19,4 +19,4 @@ export const handlers = () => {
         )
         
     })
-}
+]
