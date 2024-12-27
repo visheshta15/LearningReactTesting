@@ -7,6 +7,7 @@ import MuiMode from './components/mui/MuiMode'
 import CounterApp from './components/hooks/CounterApp'
 import IncDec from './components/incDec/IncDec'
 import Users from './components/users/Users'
+import GetReq from './components/restApi/GetReq'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       {/* <CounterApp /> */}
       {/* <IncDec /> */}
       {/* <Users /> */}
+      {/* <GetReq /> */}
     </>
     
   )

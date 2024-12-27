@@ -21,7 +21,7 @@ test.only - pick this test from File
 test.skip - pick all except this test from File
 
 -----------------------------------
-if you prefer to organise your test into groups, you u use the global `describe` method that jest provide 
+if you prefer to organise your test into groups, you use the global `describe` method that jest provide 
 # describe(name, fn)
 `name` : group name 
 `fn` : function that contains the expectation to test 
@@ -34,7 +34,7 @@ Assertions decide if a test passes or fail
 assertion carried out with jest method `expect`
 `expect(value)`
 `value`:  value that your code produces
-typically ypu will use expect alomg with a `matcher` function to asert something about the value. matcher can optionally accept an argument which is an correct expected value
+typically you will use expect along with a `matcher` function to asert something about the value. matcher can optionally accept an argument which is a correct expected value
 
 https://jestjs.io/docs/using-matchers
 https://github.com/testing-library/jest-dom

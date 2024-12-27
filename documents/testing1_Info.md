@@ -1,6 +1,5 @@
 # Jest
-jest is javascript learning framework
-
+Jest is a JavaScript testing framework that helps ensure the correctness of JavaScript codebases
 jest is a test runner that finds a tests,
 runs the tests, 
 determines whether the tests passed for failed 
@@ -11,7 +10,7 @@ report it back in the human readable manner
 # RTL
 JS testing utility that provides virtual DOM for testing React component
 
-RTL provides the a virtual DOM which we can use to interact with and verify the behaviour of react component
+`RTL provides the a virtual DOM which we can use to interact with and verify the behaviour of react component`
 Testing Library is infact a family of packages which helps test UI components.
 The library is called DOM Testing library and RTL is simply a wrapper around this core library to test React applications in an easier way
 
@@ -22,9 +21,9 @@ The library is called DOM Testing library and RTL is simply a wrapper around thi
 3. E2E end to end tests
 
 # RTL philosophy
-with RTL we are not concerned about the implementation details of a component. Instead we are testing how the component behaves when a user interacts with it.
+`with RTL we are not concerned about the implementation details of a component. Instead we are testing how the component behaves when a user interacts with it.`
 RTL will not care if you add 4+4 or 5+3 to display the number 8
-Refactoring will not affect your test as long as end result is the same
+`Refactoring will not affect your test as long as end result is the same`
 
 
 # TDD - test driven development
@@ -52,7 +51,20 @@ An optimization designed to make your tests run fast regardless of how many test
 # code coverage
 a metric that can help you understand how much of ur software code is tested
 1. `statement coverage` : how many of the statements in the software code have been executed
+                          all statements that are actually there are really executed.
 2. `branch coverage` : how many of the branches of the control structure(if statement for instance) have been executed
+                        even invisible else-branches are executed.
+`ex:`
+if (passwordEnteredOK()) {
+    enterSystem();
+} 
+/* Invisible else part 
+else {
+  // do nothing
+}
+*/
+With statement coverage you just check that with a correct password you can use the system. With branch coverage you also test that with an incorrect password you will not enter the system.
+
 3. `Function coverage` : how many of the functions defined have been called and finally
 4. `Line coverage`: how many of lines of source code have been tested
 
@@ -101,16 +113,15 @@ code that is not important to user point of view
 
 
 
-
 --------------------------------
-Greet --> basic 
-Application --> getBy
-Skills --> for asynchronous request --> findBy
-Counter --> user-event --> mouse click, tab key press for focous
-MuiMode--> App Provider , to wrapper function.
-useCounter --> custom Hooks --> renderHook
+1. Greet --> basic 
+2. Application --> getBy
+3. Skills --> for asynchronous request --> findBy
+4. Counter --> user-event --> mouse click, tab key press for focous
+5. MuiMode--> App Provider , to wrapper function.
+6. useCounter --> custom Hooks --> renderHook
 mocking
-IncDec --> jest.fn() creates a mock function 
+7. IncDec --> jest.fn() creates a mock function 
 
 
 mocking api --> https://mswjs.io/ --> need setup of mock service worker MSW
@@ -119,3 +130,4 @@ https://mswjs.io/docs/getting-started/integrate/node
 
 npm install msw --save-dev
 create mock folder
+8. Users --> mock API
